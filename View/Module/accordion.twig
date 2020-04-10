@@ -1,0 +1,18 @@
+<div class="module module-accordion module-accordion--{{color}}">
+    <dl id="accordion-{{id}}">
+        {% for section in sections %}
+            <dt id="accordion-title-{{id}}-{{loop.index}}" class="accordion-title collapsed" data-toggle="collapse" data-target="#collapse-{{id}}-{{loop.index}}" aria-expanded="false" aria-controls="collapse-{{id}}-{{loop.index}}">
+                <span>{{section.title}}</span>
+                <div class="accordion-icon">
+                    <span>&nbsp;</span>
+                    <span>&nbsp;</span>
+                </div>
+            </dt>
+            <dd id="collapse-{{id}}-{{loop.index}}" class="accordion-content collapse" aria-labelledby="accordion-title-{{id}}-{{loop.index}}" data-parent="#accordion-{{id}}">
+                <div class="accordion-content-wrapper">
+                    {{section.text}}
+                </div>
+            </dd>
+        {% endfor %}
+    </dl>
+</div>

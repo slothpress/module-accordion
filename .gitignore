@@ -1,0 +1,34 @@
+## os and ide specific
+/.idea
+.DS_Store
+node_modules
+.sass-cache
+*.log
+/.vagrant
+package-lock.json
+/profiles
+codealike.json
+
+## installed via composer
+/vendor/
+/public/cms
+/public/extensions
+/public/languages
+/public/uploads
+/public/.htaccess
+/public/index.php
+/public/wp-config.php
+
+## auto generated
+salts.php
+/bootstrap.php
+/sloth.php
+/.env
+/logs
+/app/cache
+/public/**/*.css
+/public/**/*.map
+/public/**/*.js
+
+## cmb screendesigns
+/screendesigns/

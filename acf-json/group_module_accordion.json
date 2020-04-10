@@ -1,0 +1,107 @@
+{
+    "key": "group_module_accordion",
+    "title": "MODULE: Accordion",
+    "fields": [
+        {
+            "key": "field_5e2eedd172e74",
+            "label": "Farbschema",
+            "name": "color",
+            "type": "radio",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "primary": "<span style=\"font-weigh:bold; color: #522482; margin-left: 8px;\">Purple<\/span>",
+                "secondary": "<span style=\"font-weigh:bold; color: #00E9B0; margin-left: 8px;\">Green<\/span>"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "primary",
+            "layout": "vertical",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_5e2718ffbbbb5",
+            "label": "Section",
+            "name": "sections",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 1,
+            "max": 0,
+            "layout": "block",
+            "button_label": "Section hinzufügen",
+            "sub_fields": [
+                {
+                    "key": "field_5e271925bbbb6",
+                    "label": "Überschrift",
+                    "name": "title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5e27192ebbbb7",
+                    "label": "Text",
+                    "name": "text",
+                    "type": "wysiwyg",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "tabs": "all",
+                    "toolbar": "full",
+                    "media_upload": 1,
+                    "delay": 0
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "layotter",
+                "operator": "==",
+                "value": "element"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1580133977
+}
